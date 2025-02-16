@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./banner.css"; // Import the regular CSS file
+import "./banner.css"; 
 import axiti from "../../utils/axios";
 import requests from "../../utils/requests";
 
