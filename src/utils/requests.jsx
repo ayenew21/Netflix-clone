@@ -7,7 +7,8 @@ const requests = {
   Action: `/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=28`,
   Adventure: `/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=12`,
   Animation: `/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=16`,
-  Documentary: `/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=99`,
+  // Documentary: `/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=99`,
+  TV: `https:/discover/tv?api_key=${API_KEY}&language=en-US&page=1&sort_by=popularity.desc`,
   Drama: `/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=18`,
 };
 
